@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/frandiox/graphql-info-transformer/issues"
   },
-  "homepage": "https://github.com/frandiox/graphql-info-transformer#readme"
+  "homepage": "https://github.com/frandiox/graphql-info-transformer#readme",
+  "files": [
+    "index.js"
+  ]
 }
