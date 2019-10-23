@@ -2,7 +2,7 @@
   "name": "graphql-info-transformer",
   "version": "0.0.1",
   "description": "",
-  "main": "infoParser.js",
+  "main": "index.js",
   "directories": {
     "example": "example"
   },

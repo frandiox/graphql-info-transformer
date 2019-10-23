@@ -47,7 +47,6 @@ function isExcludedByDirective(info, ast) {
 }
 
 function getFieldSet(info, asts = info.fieldASTs || info.fieldNodes, options) {
-  // for recursion: fragments doesn't have many sets
   if (!Array.isArray(asts)) {
     asts = [asts];
   }

@@ -2,7 +2,7 @@ const path = require("path");
 const { GraphQLServer } = require("graphql-yoga");
 const Photon = require("@generated/photon");
 const { importSchema } = require("graphql-import");
-const { infoToPhotonSelect } = require("../../infoParser");
+const { infoToPhotonSelect } = require("../../index");
 
 const photon = new Photon();
 
